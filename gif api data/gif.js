@@ -21,11 +21,32 @@ fetch('http://api.giphy.com/v1/gifs/translate?api_key=BidPCeR8DsLeJqavYuHKjKFtSE
 const img3 = document.getElementById('img3')
 fetch('http://api.giphy.com/v1/gifs/translate?api_key=BidPCeR8DsLeJqavYuHKjKFtSE9CCOtT&s=ironman', { mode: 'cors' })
     .then((response) => {
-        s
         return response.json()
     })
     .then((response) => {
         img3.src = response.data.images.original.url
+    })
+    .catch(e => {
+        console.log(e)
+    })
+const img5 = document.getElementById('img5')
+fetch('http://api.giphy.com/v1/gifs/translate?api_key=BidPCeR8DsLeJqavYuHKjKFtSE9CCOtT&s=funny', { mode: 'cors' })
+    .then((response) => {
+        return response.json()
+    })
+    .then((response) => {
+        img5.src = response.data.images.original.url
+    })
+    .catch(e => {
+        console.log(e)
+    })
+const img6 = document.getElementById('img6')
+fetch('http://api.giphy.com/v1/gifs/translate?api_key=BidPCeR8DsLeJqavYuHKjKFtSE9CCOtT&s=fool', { mode: 'cors' })
+    .then((response) => {
+        return response.json()
+    })
+    .then((response) => {
+        img6.src = response.data.images.original.url
     })
     .catch(e => {
         console.log(e)
