@@ -1,0 +1,24 @@
+
+ div img{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    border: 2px solid;
+    
+  
+} 
+header{
+    background:#333;
+    color:#fff;
+    padding:20px;
+    text-align: center;
+    border-bottom: 4px #000 solid;
+    margin-bottom: 10px;
+}
+div{
+    background-color: black;
+    height: auto;
+    width: 1400px;
+    display:flex;
+    flex-direction:row;    
+}
