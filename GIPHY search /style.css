@@ -1,0 +1,12 @@
+body {
+    width: 350px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-left: center;
+    flex: auto;
+
+    
+}
